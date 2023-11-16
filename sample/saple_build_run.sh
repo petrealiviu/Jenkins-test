@@ -8,4 +8,4 @@ docker rm Hello_World
 docker build -t helloworld ..
 
 # Запускаем контейнер
-docker run -d --name Hello_World helloworld
+docker run -d -p 80:80 --name Hello_World helloworld
